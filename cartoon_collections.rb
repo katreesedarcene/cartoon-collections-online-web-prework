@@ -15,7 +15,7 @@ def summon_captain_planet(veggies)
   
   veggies.each do |veggie|
     same_veggies << "#{veggie.capitalize}!"
-    binding.pry
+    
   end
    same_veggies
 end
